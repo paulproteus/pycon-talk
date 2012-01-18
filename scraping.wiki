@@ -130,7 +130,6 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 *<2-> Does it handle XHTML properly?
 **<3-> They all do; don't worry.
 *<4-> examples/parsing/ has samples.
-*<5->Performance
 
 ==== A showcase of some options ====
 
@@ -146,51 +145,169 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== ====
 
-* Some people, when confronted with a problem, think\\
-"I know, I'll use regular expressions."\\
-Now they have two problems.
+* Some people, when confronted with a problem, think
+** "I know, I'll use regular expressions."
+* Now they have two problems. -- jwz.
 
 ==== But why? ====
 
-* <a href='/whatever'>
-* <a href="/whatever/">
-* <a href='/whatever/">
+* a href="whatever"
+* a href='whatever'
+* a href="whatever'
 
+==== But it's good enough for... ====
 
+*<1->Curry
+*<2->Text analysis:
+** <3->Reviews 1-10 of 430
 
+==== If you have to ====
 
-
-==== Trivia.. ====
-
-*<1-> (Sophia)  1. Neon Genesis Evangelion: Who does Kaji really work for?
-*<2-> (Sophia)  Here's your hint, answer space: \--\--\--\--\--\--\--\-- \--\--\--\--\--\--\--\--\--\--
-*<3-> (Sophia)  Here's your 1st hint, answer space: \--\--\--\--\--\--\--\-- \--\--\--\--\--\--\--\--\--\--
-*<4-> (Sophia)  Here's your 2nd hint, Japan\--\--\-- Gove\--\--\--\--\--\--
-*<5-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
-
-==== Trivia... ====
-
-*<1-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
-*<2-> (pizzaIS4breakfast)       janese governers
-*<3-> (pizzaIS4breakfast)       janese governors
-*<4-> (pizzaIS4breakfast)       japanese governors
-*<5-> (pizzaIS4breakfast)       japanese government
-*<6-> (Sophia)  Baka pizzaIS4breakfast got the answer: Japanese Government in 56 seconds. Points: 1 Rank: 36th
+* Use Kodos, a regular expression GUI
+* (Note: redemo.py in Python source is unmaintained.)
+* <2-> Be conservative in what you do, be liberal in what you accept from others. -- Jon Postel.
 
 ==== ====
 
-<<<robot.jpg,width=4.5in>>>
+(5) Parsers in depth
 
-*<2-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
-*<3-> (pizzaIS4breakfast)       japanese government
+==== Searching document trees ====
 
-==== How to mock your friends (with Python) ====
+* BeautifulSoup API (examples/tree-builders/beautifulsoup/search.py)
+* <2->html5lib creates BeautifulSoup objects (or others) (examples/tree-builders/html5lib/search.py)
+* <3->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
+* <4->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
 
-*<1->Store logs of the channel
-*<2->Extract a list of answers
-*<3->Join the channel with X-Chat
-*<4->Enable my plugin, which looks things up in the list of old answers
-*<5->Laugh all the way to the ...
+==== General structure of scraping a page ====
+
+* Get a page's HTML
+* <2->Parse it
+* <3->Pull out the items you need
+* <4->Return them as a dictionary, or an object
+
+==== A closer look at curry ====
+
+* (see Python interpreter)
+* (let's use BeautifulSoup)
+* <2->Conclusion: This is a text-processing problem, not a tag problem.
+
+==== Mini-lesson ====
+
+Three kinds of page:
+
+* Hand-written pages
+* <2->Machine-written pages
+* <3->Machine-written pages, old-skool
+
+==== More BeautifulSoup: Yahoo! Finance ====
+
+* examples/tree-builders/beautifulsoup yfinance.py
+
+==== ====
+
+(6) Interacting with the web
+
+==== Hard-coding URLs: Yahoo! search ====
+
+* examples/search/yahoo.py
+* examples/search/google.py
+
+==== More about HTTP: Headers ====
+
+* (Firefox demo)
+
+==== More about HTTP: Status codes ====
+
+* 2xx: Success
+* 3xx: Redirection
+* 4xx: Error
+* <2->402: Payment Required
+* <2->404 Not Found
+* <3->410 Gone
+* <4->418 I'm a teapot
+
+==== More about HTTP: Methods ====
+
+* GET
+* POST
+* PUT
+* <2->BREW
+
+==== Once we set User-Agent, are we just like Firefox? ====
+
+* JavaScript behavior
+* <2->Image download behavior
+* <3->Cookie behavior
+* <4->Invalid HTML handling behavior (?)
+* <5->Accept: headers
+
+==== Google, again ====
+
+* examples/search/urllib2-user-agent/google as ie.py
+* <2->IE 5 vs. IE 8
+
+==== robots.txt ====
+
+* User-agent: *
+* Disallow: /
+* Allow: /crawlme.html
+* <2->http://www.robotstxt.org/
+* <3->Don't ever GET it
+
+==== ====
+
+(7) Filling out forms, and handling cookies, with mechanize
+
+==== The weather (by hand) ====
+
+* http://cepstral.com/cgi-bin/demos/weather
+* <2->Find the POST target in Firebug
+* <3->examples/cepstral/just post.py
+* <4->examples/cepstral/play wav.py
+
+==== The weather (with mechanize) ====
+
+* examples/cepstral/just post via mechanize.py
+
+==== Search the web (via mechanize) ====
+
+* examples/search/yahoo mechanize.py
+* <2->Oh snap, we're a robot.
+* <3->examples/search/yahoo mechanize norobots.py
+* <4->examples/search/google mechanize.py
+
+==== ====
+
+(8) Recap and philosophy
+
+==== Things we've seen ====
+
+* Loading web pages from the network with urllib2
+* <2->Parsing web pages (even broken ones)
+* <3->Scraping that page into a set of structured Python objects
+* <4->HTTP status codes
+* <5->Faking the user agent header
+* <6->Submitting forms
+* <7->Keeping a session with cookies
+
+==== ====
+
+(9) Even more about parsers
+
+==== Things to look for ====
+
+* Performance
+* Ease-of-use
+* Quality
+* Maintained-ness
+
+==== Redux ====
+
+* <1>HTMLParser (stdlib!)
+* <2->xml.dom.minidom (stdlib!)
+* <3->BeautifulSoup
+* <4->html5lib
+* <5->lxml.html
 
 ==== Thanks ====
 
