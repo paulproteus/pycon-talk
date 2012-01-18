@@ -11,6 +11,16 @@ subtitle={Strategies for programming websites that don't expect it}
 author={Asheesh Laroia asheesh@asheesh.org}
 [autotemplate]>
 
+==== This is supposed to be practice ====
+
+* <1->But there are things I know I'll have to fix
+* <2->More graphs and diagrams
+** <3->But which ones?
+
+==== So please do interrupt me ====
+
+==== ...and we begin ====
+
 ==== Welcome ====
 
 ==== Meta ====
@@ -21,20 +31,37 @@ author={Asheesh Laroia asheesh@asheesh.org}
 *<4->Brittle? Sometimes.
 *<5->The comics aren't mine; ask for references.
 
+==== Things you'll need ====
+
+* Sample code: http://FIXME.com
+* Install FireBug
+* Install python-lxml if it is easy
+
+==== Pacing ====
+
+* <1->Slow me down,
+* <2->or speed me up.
+* <2->With your voice, or by raising your hand.
+
+==== What is web scraping? ====
+
+Generally speaking,
+
+* <1->You retrieve some data from the web,
+* <2->You extract some information,
+* <3->and optionally you repeat.
+
+==== Perspectives on scraping ====
+
+* <1->One page vs. a whole site
+* <2->A site's contents now, or for the future as well
 
 ====  ====
 
-<<<xchat_screen_33.png,width=4.5in>>>
+(1) Diving in with curry
 
-====  ====
+==== Lunchtime ====
 
-<<<snapshot.jpg,width=4.5in>>>
-
-==== ====
-
-<<<Modernanime.jpg,width=4.5in>>>
-
-==== Trivia ====
 
 *<1-> pizzaIS4breakfast (~eric@Rizon-231291B1.mtromd01.md.comcast.net) has joined \#AnimeU
 *<2-> (pizzaIS4breakfast)       !trivia
