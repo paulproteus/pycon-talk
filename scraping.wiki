@@ -16,6 +16,7 @@ author={Asheesh Laroia asheesh@asheesh.org}
 * <1->But there are things I know I'll have to fix
 * <2->More graphs and diagrams
 ** <3->But which ones?
+* <4->Better presentation style (sorry!)
 
 ==== So please do interrupt me ====
 
@@ -60,12 +61,104 @@ Generally speaking,
 
 (1) Diving in with curry
 
+==== ====
+
+<<<curry.jpg,width=4.5in>>>
+
 ==== Lunchtime ====
 
+* <1-> http://mehfilindian.com/LunchMenuTakeOut.htm
+* <2-> A question
+** <3-> is there eggplant today?
 
-*<1-> pizzaIS4breakfast (~eric@Rizon-231291B1.mtromd01.md.comcast.net) has joined \#AnimeU
-*<2-> (pizzaIS4breakfast)       !trivia
-*<3-> (Sophia)  Starting the trivia. Round of 100 questions. !strivia to stop. Total: 6552
+==== From python ====
+
+examples/curry/trivial.py
+
+==== ====
+
+(2) HTML: Structured text on the web
+
+==== Two easy ways to read HTML ====
+
+In a browser:
+
+* <1->View source
+* <2->Inspect element (requires Firebug or DOM Inspector)
+
+==== HTML vs. XHTML ====
+
+* <1-> Both are trees of tags
+* <2-> HTML: from 1992
+* <3-> XHTML: from 2000
+* <4-> ...did XHTML win?
+
+==== Stats pop quiz: size and type ====
+
+(Stats from the MAMA survey published by Opera,
+http://dev.opera.com/articles/view/mama-key-findings/.)
+
+* <1->Average page size?
+** <2-> 16.5K
+*<3-> HTML to XHTML ratio?
+**<4-> 2:1
+
+==== Stats pop quiz: quirks and tags (pt. 1) ====
+
+* <1->Transitional vs. Strict+Framset?
+** <2->10:1
+* <3->How many pages render in "Quirks" mode?
+** <4->85 percent
+* <5->What percent validate?
+** <6->4.13 percent
+
+==== Stats pop quiz: quirks and tags (pt. 2) ====
+
+* <1->What's more popular? TITLE or BODY?
+** <2->TITLE
+* <3->What percent of web pages with validations badges actually validate?
+** <4-> about 50 percent
+* The web is a mess
+
+==== ====
+
+(3) Parsing "HTML" in Python
+
+==== Things to consider ====
+
+*<1-> What does a parser do with invalid HTML?
+*<2-> Does it handle XHTML properly?
+**<3-> They all do; don't worry.
+*<4-> examples/parsing/ has samples.
+*<5->Performance
+
+==== A showcase of some options ====
+
+* HTMLParser (stdlib!)
+* xml.dom.minidom (stdlib!)
+* <2->BeautifulSoup
+* <2->html5lib
+* <2->lxml.html
+
+==== ====
+
+(4) On regular expressions
+
+==== ====
+
+* Some people, when confronted with a problem, think\\
+"I know, I'll use regular expressions."\\
+Now they have two problems.
+
+==== But why? ====
+
+* <a href='/whatever'>
+* <a href="/whatever/">
+* <a href='/whatever/">
+
+
+
+
 
 ==== Trivia.. ====
 
