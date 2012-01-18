@@ -1,0 +1,68 @@
+<[autotemplate]
+documentclass={beamer}
+usepackage={listings}
+usepackage={wasysym}
+usepackage={graphicx}
+date={\today}
+lstdefinestyle={basic}{....}
+titleframe=False
+[autotemplate]>
+
+==== Hello ====
+
+I'm Asheesh.
+
+====  ====
+
+<<<xchat_screen_33.png,width=4.5in>>>
+
+====  ====
+
+<<<snapshot.jpg,width=4.5in>>>
+
+==== ====
+
+<<<Modernanime.jpg,width=4.5in>>>
+
+==== Trivia ====
+
+*<1-> pizzaIS4breakfast (~eric@Rizon-231291B1.mtromd01.md.comcast.net) has joined \#AnimeU
+*<2-> (pizzaIS4breakfast)       !trivia
+*<3-> (Sophia)  Starting the trivia. Round of 100 questions. !strivia to stop. Total: 6552
+
+==== Trivia.. ====
+
+*<1-> (Sophia)  1. Neon Genesis Evangelion: Who does Kaji really work for?
+*<2-> (Sophia)  Here's your hint, answer space: \--\--\--\--\--\--\--\-- \--\--\--\--\--\--\--\--\--\--
+*<3-> (Sophia)  Here's your 1st hint, answer space: \--\--\--\--\--\--\--\-- \--\--\--\--\--\--\--\--\--\--
+*<4-> (Sophia)  Here's your 2nd hint, Japan\--\--\-- Gove\--\--\--\--\--\--
+*<5-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
+
+==== Trivia... ====
+
+*<1-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
+*<2-> (pizzaIS4breakfast)       janese governers
+*<3-> (pizzaIS4breakfast)       janese governors
+*<4-> (pizzaIS4breakfast)       japanese governors
+*<5-> (pizzaIS4breakfast)       japanese government
+*<6-> (Sophia)  Baka pizzaIS4breakfast got the answer: Japanese Government in 56 seconds. Points: 1 Rank: 36th
+
+==== ====
+
+<<<robot.jpg,width=4.5in>>>
+
+*<2-> (Sophia)  Here's your 3rd hint, Japanes\-- Govern\--\--\--\--
+*<3-> (pizzaIS4breakfast)       japanese government
+
+==== How to mock your friends (with Python) ====
+
+*<1->Store logs of the channel
+*<2->Extract a list of answers
+*<3->Join the channel with X-Chat
+*<4->Enable my plugin, which looks things up in the list of old answers
+*<5->Laugh all the way to the ...
+
+==== Thanks ====
+
+asheesh@asheesh.org
+
