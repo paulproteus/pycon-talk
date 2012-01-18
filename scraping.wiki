@@ -5,12 +5,14 @@ usepackage={wasysym}
 usepackage={graphicx}
 date={\today}
 lstdefinestyle={basic}{....}
-titleframe=False
+titleframe=True
+title={Scrape the Web}
+subtitle={Strategies for programming websites that don't expect it}
+author={Asheesh Laroia asheesh@asheesh.org}
 [autotemplate]>
 
-==== Hello ====
+==== Welcome ====
 
-I'm Asheesh.
 
 ====  ====
 
