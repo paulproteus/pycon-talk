@@ -309,6 +309,62 @@ Three kinds of page:
 * <4->html5lib
 * <5->lxml.html
 
+==== Winners ====
+
+* Resilience: lxml.html == html5lib > BeautifulSoup > stdlib
+* <2->Performance: lxml.html > stdlib > BeautifulSoup > html5lib
+
+==== ====
+
+(10) Countermeasures
+
+==== The basics ====
+
+* Referer header
+* Cookies
+* Hidden form fields
+* <2->Solved by mechanize
+
+==== The hard ones ====
+
+* Per-IP address query limits
+* <2->Behavior profiling
+* <3->JavaScript
+* <4-> CAPTCHAs
+
+==== IP addresss ====
+
+* ssh -D
+* tsocks
+* socks monkey
+* <2> (All in the sample code)
+
+==== Behavior profiling ====
+
+* You're doomed.
+
+==== JavaScript ====
+
+Options:
+
+# Re-write the JS in Python
+# Send the JS to python-spidermonkey
+
+==== CAPTCHAs ====
+
+* Hope for an easy one
+** http://www.mailinator.com/images/captcha1.gif
+* <2->Otherwise, just present it to the human operator...
+
+==== ====
+
+(11) When (and how) to just automate Firefox
+
+==== Selenium and friends ====
+
+* examples/seleniumrc/test google.py
+* Selenium RC for XPath
+
 ==== Thanks ====
 
 asheesh@asheesh.org
