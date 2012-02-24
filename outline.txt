@@ -1,0 +1,204 @@
+About this presentation [JM]
+
+======================
+
+    -who
+
+    - why
+
+    - what we did
+
+    - how it's grown
+
+- about us:
+
+    - Jessica + Asheesh
+
+    - SIPB, JH computer club
+
+    - Twisted, Debian
+
+- why:
+
+    - goals
+
+
+The event [AL]
+
+===========
+
+- women and friends
+
+    - men really do come and love it
+
+- Friday night setup
+
+- Saturday lecture
+
+- Saturday projects
+
+    - ColorWall
+
+- wrap-up
+
+    - next steps
+
+    - project night ==> segue to next section
+
+
+Impact on the Boston Python user group [JM]
+
+===================================
+
+- integration with UG
+
+- we are now organizers
+
+    + thank Ned
+
+- recall our goals
+
+- project nights
+
+- don't call it "hack"
+
+- Cynthia Andrews learned Django with us, got a job
+
+- Rise has a job
+
+- data
+
+    - UG organizer survey
+
+    - women
+
+    - beginners
+
+- lightning talks
+
+    - shauna talk
+
+
+Reflection on the event and sharing [AL]
+
+===============================
+
+- exit survey
+
+    - why free
+
+    - value being focused on women
+
+- where do volunteers come from?
+
+- events list + blog posts
+
+- staff wrap-up
+
+- we can say no to men w/o friends b/c of e.g. Project Night
+
+- friday setup has improved
+
+    - Python bug tracker
+
+    - CodingBat
+
+
+Scaling Up [JM]
+
+============
+
+- initial size: 30 (double check --JM)
+
+- dealing w/ no shows
+
+- now: 70 - 80 people
+
+- content creates good history for us and for reuse ==> segue to next
+section
+
+- Python bug for setup instructions
+
+- CodingBat
+
+- after party
+
+- web app project
+
+
+Scaling Out: Beyond Boston [AL]
+
+=========================
+
+- PSF grant
+
+- Montreal event
+
+    - Paris?
+
+- PyStar
+
+    - Dana Bauer now PhillyPUG organizer
+
+- PyLadies
+
+- Ladies Learning Code
+
+- Web Start Women (*currently vaporware)
+
+- Scala crash course
+
+- people who reuse our curriculum pieces
+
+- getting new people to PyCon
+
+    - PyCon registration donation
+
+    - posters from workshop affiliates
+
+- benefits we get from integration
+
+
+Next steps for us [JM]
+
+=================
+
+- continuing workshops in Boston
+
+- workshops in other cities (grant)
+
+- more engagement by these new diverse people in user groups
+
+    - talks/presentations
+
+    - lightning talks
+
+    - organizers
+
+
+Make it happen [AL/JM]
+
+==================
+
+- newcomers are good for group (even in gender neutral way)
+
+- Find us @ Dana's poster
+
+- run project nights
+
+- events list
+
+- find us on outreach and education committee
+
+    - grants to help you financially
+
+- enumerate concrete goals UG organizers can leave the room with
+
+
+Backup slides
+
+===========
+
+- recall that we have a product and it has customers [AL]
+
+- resources on why diversity is good [JM]
