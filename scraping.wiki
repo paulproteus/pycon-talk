@@ -255,13 +255,6 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * <3->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
 * <4->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
 
-==== General structure of scraping a page ====
-
-* Get a page's HTML
-* <2->Parse it
-* <3->Pull out the items you need
-* <4->Return them as a dictionary, or an object
-
 ==== A closer look at curry ====
 
 * (see Python interpreter)
