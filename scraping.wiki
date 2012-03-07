@@ -194,6 +194,14 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * PUT
 * <2->BREW
 
+==== In short: How cookies work ====
+
+* Server to client:
+** Set-Cookie: abc=xyz
+* <2->Next time, client to server:
+** <2-> Cookie: abc=xyz
+* <3->Requests and mechanize handle it for you
+
 ==== urllib2 vs. mechanize vs. requests ====
 
 * <1->Try to POST to: http://www.cepstral.com/cgi-bin/demos/weather
@@ -358,7 +366,7 @@ Options:
 * Hope for an easy one
 ** http://www.mailinator.com/images/captcha1.gif
 * <2->Otherwise, just present it to the human operator...
-* <3->$1.39 for 1000 <http://deathbycaptcha.com>
+* <3-> 1.39 for 1000 http://deathbycaptcha.com
 
 ==== ====
 
@@ -368,6 +376,47 @@ Options:
 
 * examples/seleniumrc/test google.py
 * Selenium RC for XPath
+
+==== US PTO PAIR ====
+
+* http://portal.uspto.gov/external/portal/pair
+* for public pair.py
+
+==== 12. Other excellent tools ====
+
+* JMeter recording proxy
+* CSS selector + XPath bookmarklet
+
+==== ====
+Parallelism
+
+==== Think "parallel I/O" ====
+
+
+(N) Parallelism
+
+* Twisted
+* gevent
+* celeryd?
+
+
+
+
+==== ====
+(13) Unit tests + scraping
+
+==== So far, doing it wrong ====
+
+* Testable scrapers separate downloading from parsing
+* examples/testing/
+
+==== Mock objects ====
+
+* examples/testing/mocks fixing untestable.py
+
+* Storing snapshotted pages
+* Mock objects
+* fake getPage
 
 ==== Thanks ====
 
