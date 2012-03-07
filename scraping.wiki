@@ -321,7 +321,7 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * Referer header
 * Cookies
 * Hidden form fields
-* <2->Solved by mechanize
+* <2->Solved by mechanize and/or Requests
 
 ==== The hard ones ====
 
@@ -330,16 +330,16 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * <3->JavaScript
 * <4-> CAPTCHAs
 
+==== Behavior profiling ====
+
+* You're doomed.
+
 ==== IP addresss ====
 
 * ssh -D
 * tsocks
 * socks monkey
 * <2> (All in the sample code)
-
-==== Behavior profiling ====
-
-* You're doomed.
 
 ==== JavaScript ====
 
