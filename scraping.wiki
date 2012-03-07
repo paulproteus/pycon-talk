@@ -263,14 +263,8 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== More BeautifulSoup: Yahoo! Finance ====
 
-* examples/tree-builders/beautifulsoup yfinance.py
-
-==== ====
-
-(7) In short: How cookies work
-
-* FIXME
-* Requests and mechanize handle it for you
+* FIXME examples/tree-builders/beautifulsoup yfinance.py
+* FIXME Do XPath sometime
 
 ==== ====
 
