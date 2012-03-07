@@ -1,0 +1,86 @@
+Thanks, Jessica, for introducing the goals of the event.
+
+I want to take a few minutes and explain exactly how the Boston
+Python Workshop for women and their friends works.
+
+It's a two-day workshop. On Friday, people set up their computers
+to learn Python. They also practice the basics of navigating the
+command line, running Python code, and using the interpreter.
+
+Then, on Saturday, attendees work through an interactive lecture
+on some more advanced programming -- functions, modules, flow
+control, things like that -- and then they break for lunch. They
+practice these things some more, getting help from TAs as needed,
+and then they choose between different hands-on projects.
+
+Let's talk more about Friday.
+
+In the setup portion of Friday, students get our help installing
+the Python interpreter. We've repeatedly honed these instructions
+so students don't fall into traps -- for exmaple, on Windows, after
+you install Python, if you type Python into a prompt you'll get "Command
+not found." Since we discovered this, we have students add Python to their system path.
+And as newcomers, how many of you have had problems mixing tabs and spaces?
+Our workshop attendees follow configuration instructions
+so that they're all soft tabs, 4 spaces wide. We also show the students
+the basics of using a terminal on their platform, since that's the
+most common development environment for Python.
+
+We also have students download the code they need so that they can work on
+any of Saturday's projects smoothly, without interruption.
+
+Finally, we have them practice the basics of Python, going through a
+simple tutorial we've written and trying out the interpreter.
+
+All this information is on the web, shared under a permissive Creative Commons
+license. We'll explain where you can find it toward the end of the talk.
+
+So when students come back on Saturday, they're ready to dive in.
+
+The first part of Saturday is the more advanced lecture. We cover topics
+that students will need to make sense of the projects, and nothing more.
+It took some work to fit all this into two hours. We explain modules,
+functions, loops and conditionals, dictionaries and lists.  The lecture is
+interactive -- we ask students to type along to what they see, and there's
+time to answer questions as people ask them.
+
+Then we break for lunch. We've managed to arrange food sponsors so far for
+all five of our workshops. You can see that Jessica does the hard work,
+giving the lecture; I showed up just in time for lunch for this workshop.
+
+After lunch, for an hour, students practice Python some more.
+It might seem a little like
+drilling them, but it really helps when we get to the hands-on projects.
+
+So let's talk about those! We have three hands-on projects that students
+can work on. In the two hours remaining, students pick two projects to
+work on for one hour each. If they're interested in graphics, they try the
+ColorWall, our simulation of a grid of LED lights. That turns out to be an
+exercise in nested for loops. Many students really like the Twitter API project,
+where they experiment with Tweeting and searching from within Python. And
+some students really enjoy the WordPlay project, where they answer questions about
+words that would fit on a scrabble grid. We like to call it, Cheating at Words
+with Friends.
+
+The projects are split into some lecture -- to explain core concepts like regular
+expressions and give students a tour of the code -- and then we ask them to dive
+in, editing the code for each project to solve exercises. It's a lot of learning
+for one day.
+
+Saturday ends with a wrap-up. We talk with students about how they
+can continue learning Python after the workshop, pointing them to
+good introductory resources. We remind them of the various things
+you can do with Python, and, while the students are still there, we
+ask them to fill out an exit survey so we know how the day went.
+
+Well, that's how the workshop works. Jessica, can you talk about
+how we've affected Boston Python group?
+
+(jessica talks about Impact on Boston Python user group)
+
+Jessica explained how the workshop has affected the Boston Python
+user group. I want to highlight some of the hidden aspects of the
+Workshop, the stuff that operates behind the scenes to help us succeed.
+
+First of all, I have to say thank you to the dozens of people who've
+volunteered with us.
