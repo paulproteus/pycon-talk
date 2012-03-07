@@ -59,23 +59,26 @@ http://cepstral.com/cgi-bin/demos/weather
 * <1->examples/cepstral/just post via mechanize.py
 * <2->Drat, we get HTML.
 
-==== Parsing HTML ====
+==== For now, forget HTML ====
 
-* 
+* <1->examples/cepstral/stupid string parse.py
+* <2->examples/cepstral/all together.py
 
-==== The weather (with mechanize) ====
+==== ====
 
-* examples/cepstral/just post via mechanize.py
+<<<curry.jpg,width=4.5in>>>
 
 ==== Lunchtime ====
 
-* <1-> http://mehfilindian.com/LunchMenuTakeOut.htm
-* <2-> A question
-** <3-> is there eggplant today?
+* <1->http://mehfilindian.com/LunchMenuTakeOut.htm
+* <2->examples/curry/trivial.py
 
-==== From python ====
+==== Un-answered questions ====
 
-examples/curry/trivial.py
+* <1->Will it break?
+* <2->What is a non-stupid way to parse HTML?
+* <3->What is mechanize doing?
+* <4->Does it have to be so slow?
 
 ==== ====
 
@@ -118,7 +121,7 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 * <1->What's more popular? TITLE or BODY?
 ** <2->TITLE
-* <3->What percent of web pages with validations badges actually validate?
+* <3->What percent of web pages with validation badges actually validate?
 ** <4-> about 50 percent
 * The web is a mess
 
