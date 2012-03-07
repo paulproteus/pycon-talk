@@ -82,5 +82,64 @@ Jessica explained how the workshop has affected the Boston Python
 user group. I want to highlight some of the hidden aspects of the
 Workshop, the stuff that operates behind the scenes to help us succeed.
 
-First of all, I have to say thank you to the dozens of people who've
-volunteered with us.
+I have to say thank you to the dozens of people who've
+volunteered with us. I want to also say a word about where
+these volunteers came from. You'll recall that when we started, the Boston 
+Python user group had close to zero women. When my friend Deborah Nicholson
+(you here?) and I decided to run an event like this, we looked to our friends
+in open source communites we know who are women. From there forward, Jessica
+found a bunch of great volunteers from the student computing group at MIT, SIPB.
+A few more friends, and that's how we got started. Since then, as the workshop
+has grown, volunteers have basically flowed in at the rate we need them.
+
+We're always curious what attracts people to the workshop. One attendee explained
+very simply what brought her to the event in her exit survey.
+
+These answers are actually a common theme -- regularly, we find that
+the women-specific focus really made people interested in the workshop.
+
+The fact that the workshop is aimed at newcomers -- we say so in the
+sign-up page about the event very clearly -- means that people know that
+they'll be comfortable, even as a new programmer, not judged for a lack
+of experience.
+
+And the fact that the workshop costs nothing -- this is a big theme in our exit 
+survey responses. For someone new to programming, if you're not sure if programming 
+is for you, it's great to be able to experience it without parting with cash. And if 
+you're between jobs, or not sure how you'll fit it into your career, it's a really
+great opportunity.
+
+So when we get feedback like this, that people feel included and a world has
+been opened for them, we feel really good about the work we're doing.
+These quotes are answers to questions on the exit survey, and those answers guide the
+changes we make.
+
+A few days after every workshop, the staff meet up and discuss how the workshop
+went, what changes should be made, and what went really well. We've made a few changes
+to the workshop over time through this process -- particularly, we've
+
+emphasized coding practice, because students totally new seem to need even more
+practice than we thought, and we've simplified the projects. We actually used to have
+more time on Saturday for projects, but we replaced one projects hour with
+more programming practice.
+
+One tenet of the Boston Python Workshop is that we do all our work in public.
+I've been saying that all the information for the workshop is on the web; it's
+stored on the OpenHatch wiki, where anyone can grab and re-use it. Our curriculum
+has been the basis of events right here in San Francisco and way out in Melbourne,
+Australia.
+
+We also write periodic updates to a mailing list called Events at OpenHatch --
+we'll give you the email address at the end. That's a place where people running
+various kinds of outreach events discuss their work, and we hope you'll join and
+keep in touch there.
+
+We do also write posts on the web -- we try to summarize the lessons we've learned
+so far, running the workshops, and some of these posts have gotten picked up on
+Geek Feminism, Women 2.0, and even the PyCon blog.
+
+(jessica talks about scaling up)
+
+
+
+
