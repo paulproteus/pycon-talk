@@ -11,17 +11,6 @@ subtitle={Strategies for programming websites that don't expect it}
 author={Asheesh Laroia asheesh@asheesh.org}
 [autotemplate]>
 
-==== This is supposed to be practice ====
-
-* <1->But there are things I know I'll have to fix
-* <2->More graphs and diagrams
-** <3->But which ones?
-* <4->Better presentation style (sorry!)
-
-==== So please do interrupt me ====
-
-==== ...and we begin ====
-
 ==== Welcome ====
 
 ==== Meta ====
@@ -35,8 +24,12 @@ author={Asheesh Laroia asheesh@asheesh.org}
 ==== Things you'll need ====
 
 * Sample code: http://FIXME.com
-* Install FireBug
-* Install python-lxml if it is easy
+* Install FireBug or Chrome DOM Inspector
+* Install these Python modules, if easy:
+** lxml (apt-get install python-lxml)
+** requests
+** mechanize
+** BeautifulSoup
 
 ==== Pacing ====
 
@@ -46,24 +39,33 @@ author={Asheesh Laroia asheesh@asheesh.org}
 
 ==== What is web scraping? ====
 
-Generally speaking,
+Categories:
 
-* <1->You retrieve some data from the web,
-* <2->You extract some information,
-* <3->and optionally you repeat.
-
-==== Perspectives on scraping ====
-
-* <1->One page vs. a whole site
-* <2->A site's contents now, or for the future as well
+* <1->one page that you need to process.
+* <2->an entire website you have to crawl and harvest data from.
+* <3->a set of forms that give you access to a web service.
+* <4->any of the above, in an ongoing fashion.
 
 ====  ====
 
-(1) Diving in with curry
+(1) The website is the API
 
 ==== ====
 
-<<<curry.jpg,width=4.5in>>>
+http://cepstral.com/cgi-bin/demos/weather
+
+==== via mechanize ====
+
+* <1->examples/cepstral/just post via mechanize.py
+* <2->Drat, we get HTML.
+
+==== Parsing HTML ====
+
+* 
+
+==== The weather (with mechanize) ====
+
+* examples/cepstral/just post via mechanize.py
 
 ==== Lunchtime ====
 
