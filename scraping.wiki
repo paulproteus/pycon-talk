@@ -63,6 +63,7 @@ http://cepstral.com/cgi-bin/demos/weather
 
 * <1->examples/cepstral/stupid string parse.py
 * <2->examples/cepstral/all together.py
+* <3->Yay!
 
 ==== ====
 
@@ -98,7 +99,7 @@ In a browser:
 * <3-> XHTML: from 2000
 * <4-> ...did XHTML win?
 
-==== Stats pop quiz: size and type ====
+==== Stats on the web ====
 
 (Stats from the MAMA survey published by Opera,
 http://dev.opera.com/articles/view/mama-key-findings/.)
@@ -107,46 +108,22 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 ** <2-> 16.5K
 *<3-> HTML to XHTML ratio?
 **<4-> 2:1
+* <5->How many pages render in "Quirks" mode?
+** <6->85 percent
 
 ==== Stats pop quiz: quirks and tags (pt. 1) ====
 
-* <1->Transitional vs. Strict+Framset?
-** <2->10:1
-* <3->How many pages render in "Quirks" mode?
-** <4->85 percent
-* <5->What percent validate?
-** <6->4.13 percent
-
-==== Stats pop quiz: quirks and tags (pt. 2) ====
-
-* <1->What's more popular? TITLE or BODY?
-** <2->TITLE
+* <1->What percent validate?
+** <2->4.13 percent
 * <3->What percent of web pages with validation badges actually validate?
 ** <4-> about 50 percent
+* <5->What's more popular? TITLE or BODY?
+** <6->TITLE
 * The web is a mess
 
 ==== ====
 
-(3) Parsing "HTML" in Python
-
-==== Things to consider ====
-
-*<1-> What does a parser do with invalid HTML?
-*<2-> Does it handle XHTML properly?
-**<3-> They all do; don't worry.
-*<4-> examples/parsing/ has samples.
-
-==== A showcase of some options ====
-
-* HTMLParser (stdlib!)
-* xml.dom.minidom (stdlib!)
-* <2->BeautifulSoup
-* <2->html5lib
-* <2->lxml.html
-
-==== ====
-
-(4) On regular expressions
+(3) On regular expressions
 
 ==== ====
 
@@ -162,9 +139,10 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== But it's good enough for... ====
 
-*<1->Curry
-*<2->Text analysis:
-** <3->Reviews 1-10 of 430
+*<1->Trivial tasks (e.g., "is there eggplant?")
+*<2->Some automatically generated HTML (e.g., "Find the .wav file")
+*<3->Text analysis:
+** <4->Reviews 1-10 of 430
 
 ==== If you have to ====
 
@@ -174,48 +152,24 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== ====
 
-(5) Parsers in depth
+(4) Traversing parsed HTML with CSS selectors
 
-==== Searching document trees ====
+==== FIXME ====
 
-* BeautifulSoup API (examples/tree-builders/beautifulsoup/search.py)
-* <2->html5lib creates BeautifulSoup objects (or others) (examples/tree-builders/html5lib/search.py)
-* <3->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
-* <4->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
+easy: lxml.html
 
-==== General structure of scraping a page ====
+==== Do it for cepstral ====
 
-* Get a page's HTML
-* <2->Parse it
-* <3->Pull out the items you need
-* <4->Return them as a dictionary, or an object
+* FIXME
 
-==== A closer look at curry ====
+==== Common things for text in HTML ====
 
-* (see Python interpreter)
-* (let's use BeautifulSoup)
-* <2->Conclusion: This is a text-processing problem, not a tag problem.
-
-==== Mini-lesson ====
-
-Three kinds of page:
-
-* Hand-written pages
-* <2->Machine-written pages
-* <3->Machine-written pages, old-skool
-
-==== More BeautifulSoup: Yahoo! Finance ====
-
-* examples/tree-builders/beautifulsoup yfinance.py
+* "Remove all tags"
+* Convert entities into Unicode strings
+* FIXME
 
 ==== ====
-
-(6) Interacting with the web
-
-==== Hard-coding URLs: Yahoo! search ====
-
-* examples/search/yahoo.py
-* examples/search/google.py
+(5) More about HTTP
 
 ==== More about HTTP: Headers ====
 
@@ -238,18 +192,15 @@ Three kinds of page:
 * PUT
 * <2->BREW
 
-==== Once we set User-Agent, are we just like Firefox? ====
+==== urllib2 vs. mechanize vs. requests ====
 
-* JavaScript behavior
-* <2->Image download behavior
-* <3->Cookie behavior
-* <4->Invalid HTML handling behavior (?)
-* <5->Accept: headers
+* <1->Try to POST to: http://www.cepstral.com/cgi-bin/demos/weather
+* <2->Contrast code samples
+* <3->Odd tip: Sometimes GET == POST
 
-==== Google, again ====
+==== ====
 
-* examples/search/urllib2-user-agent/google as ie.py
-* <2->IE 5 vs. IE 8
+(6) On bots and their detection
 
 ==== robots.txt ====
 
@@ -259,27 +210,72 @@ Three kinds of page:
 * <2->http://www.robotstxt.org/
 * <3->Don't ever GET it
 
-==== ====
-
-(7) Filling out forms, and handling cookies, with mechanize
-
-==== The weather (by hand) ====
-
-* http://cepstral.com/cgi-bin/demos/weather
-* <2->Find the POST target in Firebug
-* <3->examples/cepstral/just post.py
-* <4->examples/cepstral/play wav.py
-
-==== The weather (with mechanize) ====
-
-* examples/cepstral/just post via mechanize.py
-
 ==== Search the web (via mechanize) ====
 
 * examples/search/yahoo mechanize.py
 * <2->Oh snap, we're a robot.
 * <3->examples/search/yahoo mechanize norobots.py
-* <4->examples/search/google mechanize.py
+
+==== Hard-coding URLs: Yahoo! search ====
+
+* examples/search/yahoo.py
+* examples/search/google.py
+
+==== Google, again ====
+
+* <1->examples/search/google mechanize.py
+* <2->examples/search/urllib2-user-agent/google as ie.py
+* <3->IE 5 vs. IE 8
+
+==== ====
+
+(7) More about HTML parsing
+
+==== Things to consider ====
+
+*<1-> What does a parser do with invalid HTML?
+*<2-> Does it handle XHTML properly?
+**<3-> They all do; don't worry.
+*<4-> examples/parsing/ has samples.
+
+==== A showcase of some options ====
+
+* HTMLParser (stdlib!)
+* xml.dom.minidom (stdlib!)
+* <2->BeautifulSoup
+* <2->html5lib
+* <2->lxml.html
+
+==== Searching document trees ====
+
+* BeautifulSoup API (examples/tree-builders/beautifulsoup/search.py)
+* <2->html5lib creates BeautifulSoup objects (or others) (examples/tree-builders/html5lib/search.py)
+* <3->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
+* <4->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
+
+==== General structure of scraping a page ====
+
+* Get a page's HTML
+* <2->Parse it
+* <3->Pull out the items you need
+* <4->Return them as a dictionary, or an object
+
+==== A closer look at curry ====
+
+* (see Python interpreter)
+* (let's use BeautifulSoup)
+* <2->Conclusion: This is a text-processing problem, not a tag problem.
+
+==== More BeautifulSoup: Yahoo! Finance ====
+
+* examples/tree-builders/beautifulsoup yfinance.py
+
+==== ====
+
+(7) In short: How cookies work
+
+* FIXME
+* Requests and mechanize handle it for you
 
 ==== ====
 
@@ -322,6 +318,14 @@ Three kinds of page:
 ==== ====
 
 (10) Countermeasures
+
+==== Once we set User-Agent, are we just like Firefox? ====
+
+* Accept: headers, and other HTTP headers
+* JavaScript behavior
+* Image + CSS download behavior
+* Cookie behavior
+* Invalid HTML handling behavior (?)
 
 ==== The basics ====
 
