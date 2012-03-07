@@ -243,7 +243,7 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== ====
 
-(7) More about HTML parsing
+(7) General thoughts about HTML parsing
 
 ==== Things to consider ====
 
@@ -252,7 +252,11 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 **<3-> They all do; don't worry.
 *<4-> examples/parsing/ has samples.
 
-==== A showcase of some options ====
+==== Parsing vs. Tree search ====
+
+* (What is the difference?)
+
+==== A showcase of some parsers ====
 
 * HTMLParser (stdlib!)
 * xml.dom.minidom (stdlib!)
@@ -268,35 +272,21 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * <4->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
 * <5->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
 
+==== So many ways to use BeautifulSoup API: Demo ====
+
+* examples/tree-builders/beautifulsoup yfinance.py
+
 ==== A closer look at curry ====
 
 * (see Python interpreter)
 * (let's use BeautifulSoup)
 * <2->Conclusion: This is a text-processing problem, not a tag problem.
 
-==== So many ways to use BeautifulSoup API: Demo ====
-
-* examples/tree-builders/beautifulsoup yfinance.py
-
 * FIXME Do XPath sometime
 
 ==== ====
 
-(8) Recap and philosophy
-
-==== Things we've seen ====
-
-* Loading web pages from the network
-* <2->Parsing web pages (even broken ones)
-* <3->Scraping that page into structured Python data
-* <4->HTTP status codes
-* <5->Faking the user agent header
-* <6->Submitting forms
-* <7->Keeping a session with cookies
-
-==== ====
-
-(9) Even more about parsers
+(8) Picking a parser
 
 ==== Things to look for ====
 
@@ -313,10 +303,29 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * <4->html5lib
 * <5->lxml.html
 
+==== Performance ====
+
+* http://blog.ianbicking.org/2008/03/30/python-html-parser-performance/
+
 ==== Winners ====
 
 * Resilience: lxml.html == html5lib > BeautifulSoup > stdlib
 * <2->Performance: lxml.html > stdlib > BeautifulSoup > html5lib
+* <3-> "in conclusion: lxml kicks ass."
+
+==== ====
+
+(9) Recap and philosophy
+
+==== Things we've seen ====
+
+* Loading web pages from the network
+* <2->Parsing web pages (even broken ones)
+* <3->Scraping that page into structured Python data
+* <4->HTTP status codes
+* <5->Faking the user agent header
+* <6->Submitting forms
+* <7->Keeping a session with cookies
 
 ==== ====
 
@@ -353,7 +362,8 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * ssh -D
 * tsocks
 * socks monkey
-* <2> (All in the sample code)
+* <2> Demo
+* (All in the sample code)
 
 ==== JavaScript ====
 
@@ -391,7 +401,7 @@ Options:
 ==== 12. Other excellent tools ====
 
 * JMeter recording proxy
-* CSS selector + XPath bookmarklet
+* http://selectorgadget.com/
 
 ==== ====
 Parallelism
@@ -422,20 +432,20 @@ Parallelism
 ==== ====
 (13) Unit tests + scraping
 
-==== So far, doing it wrong ====
+==== Tenets ====
 
-* Testable scrapers separate downloading from parsing
+* Test the extraction and the downloading separately
+* Separate download from parsing
+* Store a copy of the downloaded data
+
+==== Diving into code ====
+
 * examples/testing/
-
-==== Mock objects ====
-
-* examples/testing/mocks fixing untestable.py
-
-* Storing snapshotted pages
 * Mock objects
 * fake getPage
 
 ==== Thanks ====
 
-asheesh@asheesh.org
-
+* Questions
+* asheesh@asheesh.org
+* https://github.com/paulproteus/python-scraping-code-samples
