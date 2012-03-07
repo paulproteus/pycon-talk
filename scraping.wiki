@@ -78,7 +78,7 @@ http://cepstral.com/cgi-bin/demos/weather
 * <1->Will it break?
 * <2->What is a non-stupid way to parse HTML?
 * <3->What is mechanize doing?
-* <4->Does it have to be so slow?
+* <4->Does development have to be so slow?
 
 ==== ====
 
