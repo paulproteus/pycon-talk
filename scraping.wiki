@@ -151,21 +151,24 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== ====
 
-(4) Traversing parsed HTML with CSS selectors
+(4) Traversing parsed HTML
 
-==== FIXME ====
+==== Demo on the web ====
 
-easy: lxml.html
+* Cepstral site is old-school
+* <2->Meetup.com is new-school
+* <3->lxml.html: fast, simple, accurate
 
 ==== Do it for cepstral ====
 
-* FIXME
+* all together lxml.py
 
-==== Common things for text in HTML ====
+==== Common desires for text in HTML ====
 
 * "Remove all tags"
+** <2-> .text content()
 * Convert entities into Unicode strings
-* FIXME
+** <2->automatic
 
 ==== ====
 (5) More about HTTP
