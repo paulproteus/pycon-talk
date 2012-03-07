@@ -19,7 +19,6 @@ author={Asheesh Laroia asheesh@asheesh.org}
 *<2->DO NOT BECOME AN EVIL COMMENT SPAMMER
 *<3->Theory and running code
 *<4->Brittle? Sometimes.
-*<5->The comics aren't mine; ask for references.
 
 ==== Things you'll need ====
 
