@@ -272,9 +272,9 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== Things we've seen ====
 
-* Loading web pages from the network with urllib2
+* Loading web pages from the network
 * <2->Parsing web pages (even broken ones)
-* <3->Scraping that page into a set of structured Python objects
+* <3->Scraping that page into structured Python data
 * <4->HTTP status codes
 * <5->Faking the user agent header
 * <6->Submitting forms
