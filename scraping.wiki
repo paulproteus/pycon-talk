@@ -348,11 +348,17 @@ Options:
 # Re-write the JS in Python
 # Send the JS to python-spidermonkey
 
+==== python-spidermonkey ====
+
+* http://scrape-pycon.asheesh.org/hashcash/
+* examples/javascript/hashcash/hashcash.py
+
 ==== CAPTCHAs ====
 
 * Hope for an easy one
 ** http://www.mailinator.com/images/captcha1.gif
 * <2->Otherwise, just present it to the human operator...
+* <3->$1.39 for 1000 <http://deathbycaptcha.com>
 
 ==== ====
 
