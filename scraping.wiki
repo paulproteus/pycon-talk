@@ -22,7 +22,7 @@ author={Asheesh Laroia asheesh@asheesh.org}
 
 ==== Things you'll need ====
 
-* Sample code: http://FIXME.com
+* Sample code: https://github.com/paulproteus/python-scraping-code-samples
 * Install FireBug or Chrome DOM Inspector
 * Install these Python modules, if easy:
 ** lxml (apt-get install python-lxml)
@@ -110,7 +110,7 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * <5->How many pages render in "Quirks" mode?
 ** <6->85 percent
 
-==== Stats pop quiz: quirks and tags (pt. 1) ====
+==== Stats pop quiz: quirks and tags ====
 
 * <1->What percent validate?
 ** <2->4.13 percent
@@ -135,6 +135,7 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * a href="whatever"
 * a href='whatever'
 * a href="whatever'
+* demo in Kodos
 
 ==== But it's good enough for... ====
 
@@ -143,9 +144,9 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 *<3->Text analysis:
 ** <4->Reviews 1-10 of 430
 
-==== If you have to ====
+==== Save your sanity ====
 
-* Use Kodos, a regular expression GUI
+* Use Kodos or your favorite regular expression GUI
 * (Note: redemo.py in Python source is unmaintained.)
 * <2-> Be conservative in what you do, be liberal in what you accept from others. -- Jon Postel.
 
@@ -169,6 +170,8 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 ** <2-> .text content()
 * Convert entities into Unicode strings
 ** <2->automatic
+* Generate the HTML source again
+** <2->lxml.html.tostring()
 
 ==== ====
 (5) More about HTTP
@@ -223,19 +226,20 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 ==== Search the web (via mechanize) ====
 
 * examples/search/yahoo mechanize.py
-* <2->Oh snap, we're a robot.
+* <2->Oh snap, we're a robot. (We blocked ourselves.)
 * <3->examples/search/yahoo mechanize norobots.py
 
-==== Hard-coding URLs: Yahoo! search ====
+==== Search the web by skipping the form ====
 
 * examples/search/yahoo.py
 * examples/search/google.py
+* examples/search/google requests.py
 
-==== Google, again ====
+==== Google, again, with mechanize ====
 
 * <1->examples/search/google mechanize.py
 * <2->examples/search/urllib2-user-agent/google as ie.py
-* <3->IE 5 vs. IE 8
+* <3->IE 5 vs. IE 8. Demo in web browser
 
 ==== ====
 
@@ -260,8 +264,9 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 * BeautifulSoup API (examples/tree-builders/beautifulsoup/search.py)
 * <2->html5lib creates BeautifulSoup objects (or others) (examples/tree-builders/html5lib/search.py)
-* <3->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
-* <4->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
+* <3->beautifulsoup4 uses html5lib to create BeautifulSoup objects (!?)
+* <4->lxml provides XPath (examples/tree-builders/lxml/search xpath.py)
+* <5->lxml provides CSSSelect (examples/tree-builders/lxml/search css.py)
 
 ==== A closer look at curry ====
 
@@ -269,9 +274,10 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * (let's use BeautifulSoup)
 * <2->Conclusion: This is a text-processing problem, not a tag problem.
 
-==== More BeautifulSoup: Yahoo! Finance ====
+==== So many ways to use BeautifulSoup API: Demo ====
 
-* FIXME examples/tree-builders/beautifulsoup yfinance.py
+* examples/tree-builders/beautifulsoup yfinance.py
+
 * FIXME Do XPath sometime
 
 ==== ====
@@ -390,17 +396,28 @@ Options:
 ==== ====
 Parallelism
 
+==== Why go parallel? ====
+
+* What do you get?
+* <2->Speed
+* What does it cost you?
+* <3->RAM
+* <4->complexity
+* <5->CPU
+* <6->Bandwidth
+
 ==== Think "parallel I/O" ====
 
+* Most web scraping can be accelerated by downloading more + faster
+* Try to separate downloading from parsing
+* Then do downloading in parallel
+* Implementations: multiprocessing, gevent, Twisted
 
-(N) Parallelism
+==== Summaries ====
 
-* Twisted
-* gevent
-* celeryd?
-
-
-
+* Twisted is alien technology
+* multiprocessing makes the wrong trade-off (RAM for independence)
+* gevent is simplest
 
 ==== ====
 (13) Unit tests + scraping
