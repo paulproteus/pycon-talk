@@ -282,8 +282,6 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 * (let's use BeautifulSoup)
 * <2->Conclusion: This is a text-processing problem, not a tag problem.
 
-* FIXME Do XPath sometime
-
 ==== ====
 
 (8) Picking a parser
