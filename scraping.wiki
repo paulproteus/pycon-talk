@@ -310,10 +310,10 @@ http://dev.opera.com/articles/view/mama-key-findings/.)
 
 ==== Once we set User-Agent, are we just like Firefox? ====
 
+* Cookies
 * Accept: headers, and other HTTP headers
 * JavaScript behavior
 * Image + CSS download behavior
-* Cookie behavior
 * Invalid HTML handling behavior (?)
 
 ==== The basics ====
