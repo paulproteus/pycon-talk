@@ -1,208 +1,221 @@
 Thanks, Jessica, for introducing the goals of the event.
 
-I want to take a few minutes and explain exactly how the Boston
-Python Workshop for women and their friends works.
+I want to take a few minutes and explain exactly how the Boston Python Workshop 
+for women and their friends works.
 
-It's a two-day workshop. On Friday, people set up their computers
-to learn Python. They also practice the basics of navigating the
-command line, running Python code, and using the interpreter.
+It's a two-day workshop. On Friday, people set up their computers to learn 
+Python. They also practice the basics of navigating the command line, running 
+Python code, and using the interpreter.
 
-Then, on Saturday, attendees work through an interactive lecture
-on some more advanced programming -- functions, modules, flow
-control, things like that -- and then they break for lunch. They
-practice these things some more, getting help from TAs as needed,
-and then they choose between different hands-on projects.
+Then, on Saturday, attendees work through an interactive lecture on some more 
+advanced programming, and then they break for lunch. They practice these things 
+some more, getting help from TAs as needed, and then they choose between 
+different hands-on projects.
 
 Let's talk more about Friday.
 
-In the setup portion of Friday, students get our help installing
-the Python interpreter. We've repeatedly honed these instructions
-so students don't fall into traps -- for exmaple, on Windows, after
-you install Python, if you type Python into a prompt you'll get "Command
-not found." Since we discovered this, we have students add Python to their system path.
-And as newcomers, how many of you have had problems mixing tabs and spaces?
-Our workshop attendees follow configuration instructions
-so that they're all soft tabs, 4 spaces wide. We also show the students
-the basics of using a terminal on their platform, since that's the
+In the setup portion of Friday, students get our help installing the Python 
+interpreter. We've repeatedly honed these instructions so students don't fall 
+into traps -- for exmaple, on Windows, after you install Python, if you type 
+Python into a prompt you'll get "Command not found." Now that we know, we have 
+students add Python to their system path. We also experienced problems with 
+newcomers mixing tabs and spaces. Our workshop attendees follow configuration 
+instructions so that they're all soft tabs, 4 spaces wide. We also show the 
+students the basics of using a terminal on their platform, since that's the 
 most common development environment for Python.
 
-We also have students download the code they need so that they can work on
-any of Saturday's projects smoothly, without interruption.
+We also have students download the code they need so that they can work on any 
+of Saturday's projects smoothly, without interruption.
 
-Finally, we have them practice the basics of Python, going through a
-simple tutorial we've written and trying out the interpreter.
+Finally, we have them practice the basics of Python, going through a simple 
+tutorial we've written and trying out the interpreter.
 
-All this information is on the web, shared under a permissive Creative Commons
+All this information is on the web, shared under a permissive Creative Commons 
 license. We'll explain where you can find it toward the end of the talk.
 
 So when students come back on Saturday, they're ready to dive in.
 
-The first part of Saturday is the more advanced lecture. We cover topics
-that students will need to make sense of the projects, and nothing more.
-It took some work to fit all this into two hours. We explain modules,
-functions, loops and conditionals, dictionaries and lists.  The lecture is
-interactive -- we ask students to type along to what they see, and there's
-time to answer questions as people ask them.
+The first part of Saturday is the more advanced lecture. We cover topics that 
+students will need to make sense of the projects, and nothing more. It took 
+some work to fit all this into two hours. We explain modules, functions, loops 
+and conditionals, dictionaries and lists.  The lecture is interactive -- we ask 
+students to type along to what they see, and there's time to answer questions 
+as people ask them.
 
-Then we break for lunch. We've managed to arrange food sponsors so far for
-all five of our workshops. You can see that Jessica does the hard work,
-giving the lecture; I showed up just in time for lunch for this workshop.
+Then we break for lunch. We've managed to arrange food sponsors so far for all 
+five of our workshops.
 
-After lunch, for an hour, students practice Python some more.
-It might seem a little like
-drilling them, but it really helps when we get to the hands-on projects.
+After lunch, for an hour, students practice Python some more. It might seem a 
+little like drilling them, but it really helps when we get to the hands-on 
+projects.
 
-So let's talk about those! We have three hands-on projects that students
-can work on. In the two hours remaining, students pick two projects to
-work on for one hour each. If they're interested in graphics, they try the
-ColorWall, our simulation of a grid of LED lights. That turns out to be an
-exercise in nested for loops. Many students really like the Twitter API project,
-where they experiment with Tweeting and searching from within Python. And
-some students really enjoy the WordPlay project, where they answer questions about
-words that would fit on a scrabble grid. We like to call it, Cheating at Words
-with Friends.
+So let's talk about those! We have three hands-on projects that students can 
+work on. In the two hours remaining, students pick two projects to work on for 
+one hour each. If they're interested in graphics, they try the ColorWall, our 
+simulation of a grid of LED lights. That turns out to be an exercise in nested 
+for loops. Many students really like the Twitter API project, where they 
+experiment with Tweeting and searching from within Python. And some students 
+really enjoy the WordPlay project, where they answer questions about words that 
+would fit on a scrabble grid. We like to call it, Cheating at Words with 
+Friends.
 
-The projects are split into some lecture -- to explain core concepts like regular
-expressions and give students a tour of the code -- and then we ask them to dive
-in, editing the code for each project to solve exercises. It's a lot of learning
-for one day.
+The projects are split into some lecture -- to explain core concepts like 
+regular expressions and give students a tour of the code -- and then we ask 
+them to dive in, editing the code for each project to solve exercises. It's a 
+lot of learning for one day.
 
-Saturday ends with a wrap-up. We talk with students about how they
-can continue learning Python after the workshop, pointing them to
-good introductory resources. We remind them of the various things
-you can do with Python, and, while the students are still there, we
-ask them to fill out an exit survey so we know how the day went.
+Saturday ends with a wrap-up. We talk with students about how they can continue 
+learning Python after the workshop, pointing them to good introductory 
+resources. We remind them of the various things you can do with Python, and, 
+while the students are still there, we ask them to fill out an exit survey so 
+we know how the day went.
 
-Well, that's how the workshop works. Jessica, can you talk about
-how we've affected Boston Python group?
+FIXME: Mention project night!
+
+Well, that's how the workshop works. Jessica, can you talk about how we've 
+affected Boston Python group?
+
++ ?? project night
 
 (jessica talks about Impact on Boston Python user group)
 
-Jessica explained how the workshop has affected the Boston Python
-user group. I want to highlight some of the hidden aspects of the
-Workshop, the stuff that operates behind the scenes to help us succeed.
+Jessica explained how the workshop has affected the Boston Python user group. I 
+want to highlight some of the hidden aspects of the Workshop, the stuff that 
+operates behind the scenes to help us succeed.
 
-I have to say thank you to the dozens of people who've
-volunteered with us. I want to also say a word about where
-these volunteers came from. You'll recall that when we started, the Boston 
-Python user group had close to zero women. When my friend Deborah Nicholson
-(you here?) and I decided to run an event like this, we looked to our friends
-in open source communites we know who are women. From there forward, Jessica
-found a bunch of great volunteers from the student computing group at MIT, SIPB.
-A few more friends, and that's how we got started. Since then, as the workshop
-has grown, volunteers have basically flowed in at the rate we need them.
+I have to say thank you to the dozens of people who've volunteered with us. I 
+want to also say a word about where these volunteers came from. You'll recall 
+that when we started, the Boston Python user group had close to zero women. 
+When my friend Deborah Nicholson (you here?) and I decided to run an event like 
+this, we looked to our friends in open source communites we know who are women. 
+From there forward, Jessica found a bunch of great volunteers from the student 
+computing group at MIT, SIPB. A few more friends, and that's how we got 
+started. Since then, as the workshop has grown, volunteers have basically 
+flowed in at the rate we need them.
 
-We're always curious what attracts people to the workshop. One attendee explained
-very simply what brought her to the event in her exit survey.
+We're always curious what attracts people to the workshop. One attendee 
+explained very simply what brought her to the event in her exit survey.
 
-These answers are actually a common theme -- regularly, we find that
-the women-specific focus really made people interested in the workshop.
+These answers are actually a common theme -- regularly, we find that the 
+women-specific focus really made people interested in the workshop.
 
-The fact that the workshop is aimed at newcomers -- we say so in the
-sign-up page about the event very clearly -- means that people know that
-they'll be comfortable, even as a new programmer, not judged for a lack
-of experience.
+The fact that the workshop is aimed at newcomers -- we say so in the sign-up 
+page about the event very clearly -- means that people know that they'll be 
+comfortable, even as a new programmer, not judged for a lack of experience.
 
 And the fact that the workshop costs nothing -- this is a big theme in our exit 
-survey responses. For someone new to programming, if you're not sure if programming 
-is for you, it's great to be able to experience it without parting with cash. And if 
-you're between jobs, or not sure how you'll fit it into your career, it's a really
-great opportunity.
+survey responses. For someone new to programming, if you're not sure if 
+programming is for you, it's great to be able to experience it without parting 
+with cash. And if you're between jobs, or not sure how you'll fit it into your 
+career, it's a really great opportunity.
 
-So when we get feedback like this, that people feel included and a world has
-been opened for them, we feel really good about the work we're doing.
-These quotes are answers to questions on the exit survey, and those answers guide the
+So when we get feedback like this, that people feel included and a world has 
+been opened for them, we feel really good about the work we're doing. These 
+quotes are answers to questions on the exit survey, and those answers guide the 
 changes we make.
 
-A few days after every workshop, the staff meet up and discuss how the workshop
-went, what changes should be made, and what went really well. We've made a few changes
-to the workshop over time through this process -- particularly, we've
+A few days after every workshop, the staff meet up and discuss how the workshop 
+went, what changes should be made, and what went really well. We've made a few 
+changes to the workshop over time through this process -- particularly, we've
 
-emphasized coding practice, because students totally new seem to need even more
-practice than we thought, and we've simplified the projects. We actually used to have
-more time on Saturday for projects, but we replaced one projects hour with
-more programming practice.
+emphasized coding practice, because students totally new seem to need even more 
+practice than we thought, and we've simplified the projects. We actually used 
+to have more time on Saturday for projects, but we replaced one projects hour 
+with more programming practice.
 
-One tenet of the Boston Python Workshop is that we do all our work in public.
-I've been saying that all the information for the workshop is on the web; it's
-stored on the OpenHatch wiki, where anyone can grab and re-use it. Our curriculum
-has been the basis of events right here in San Francisco and way out in Melbourne,
-Australia.
+FIXME: slie should say 'simplfied projects'
 
-We also write periodic updates to a mailing list called Events at OpenHatch --
-we'll give you the email address at the end. That's a place where people running
-various kinds of outreach events discuss their work, and we hope you'll join and
-keep in touch there.
+One tenet of the Boston Python Workshop is that we do all our work in public. 
+I've been saying that all the information for the workshop is on the web; it's 
+stored on the OpenHatch wiki, where anyone can grab and re-use it. Our 
+curriculum has been the basis of events right here in San Francisco and way out 
+in Melbourne, Australia.
 
-We do also write posts on the web -- we try to summarize the lessons we've learned
-so far, running the workshops, and some of these posts have gotten picked up on
-Geek Feminism, Women 2.0, and even the PyCon blog.
+We also write periodic updates to a mailing list called Events at OpenHatch -- 
+we'll give you the email address at the end. That's a place where people 
+running various kinds of outreach events discuss their work, and we hope you'll 
+join and keep in touch there.
+
+We do also write posts on the web -- we try to summarize the lessons we've 
+learned so far, running the workshops, and some of these posts have gotten 
+picked up on Geek Feminism, Women 2.0, and even the PyCon blog.
+
+(what do I say for hand-off?)
 
 (jessica talks about scaling up)
 
-We've talked about how we've refined and shared the workshop;
-I want to discuss the impact we've had on programming communities
-outside of Boston.
-I gave a talk on the then-nascent Workshop at last year's PyCon.
-As we kept organizing workshops, a flurry of other groups have gotten
-together to make their own kind of change.
+We've talked about how we've refined and shared the workshop; I want to discuss 
+the impact we've had on programming communities outside of Boston. I gave a 
+talk on the then-nascent Workshop at last year's PyCon. As we kept organizing 
+workshops, a flurry of other groups have gotten together to make their own kind 
+of change.
 
-In May last year, the Montreal Python user group organized a women-and-their-friends
-intro workshop also. A year ago, PyStar got together and created a website
-and community to help people run outreach workshops, too. PyLadies has been creating
-women-friendly Python user groups around the country. And inspired by all the
-activity in Python, a group of women in Toronto founded Ladies Learning Code, teaching
-a bunch of different introductory courses to women north of the border.
+In May last year, the Montreal Python user group organized a 
+women-and-their-friends intro workshop also. A year ago, PyStar got together 
+and created a website and community to help people run outreach workshops, too. 
+(FIXME) That talk inspired Audrey Roy to form PyLadies has been creating 
+women-friendly Python user groups around the country. And inspired by all the 
+activity in Python, a group of women in Toronto founded Ladies Learning Code, 
+teaching a bunch of different introductory courses to women north of the 
+border.
 
-To explain the impact we've been able to make in Boston, I want to talk about
-the Ruby workshops that inspired us. Years ago, here in the Bay Area,
-the San Francisco Ruby community set some similar goals for itself. They formed
-RailsBridge, a bunch of introductory workshops for women and their friends,
-as part of the main Ruby user group.
+(MAYBE FIXME: More words about other groups)
 
-From our experience, and from that history, we really emphasize working
-in concert with the user group. To have our lasting, measurable impact, we
-think that project nights plus workshops within the main user group
-are key to our success.
+To explain the impact we've been able to make in Boston, I want to talk about 
+the Ruby workshops that inspired us. Years ago, here in the Bay Area, the San 
+Francisco Ruby community set some similar goals for itself. They formed 
+RailsBridge, a bunch of introductory workshops for women and their friends, as 
+part of the main Ruby user group.
 
-So with that said, I want to give a special shout-out to PyStar Philly, where
-they've run four workshops and begun to see real changes in the user group.
-It could easily be them giving this talk -- is Dana Bauer here? (!)
-The fact that we work within the user group means that volunteers show up
-at project nights to mentor beginners, answer their questions, and
-it gives newcomers a space to grow into.
+From our experience, and from that history, we really emphasize working in 
+concert with the user group. To have our lasting, measurable impact, we think 
+that project nights plus workshops within the main user group are key to our 
+success.
 
-(FIXME: I think PyMNtos + PyStar Minneapolis is the same. I should give Gregg
-a call.)
+So with that said, I want to give a special shout-out to PyStar Philly, where 
+they've run three workshops and begun to see real changes in the user group. It 
+could easily be them giving this talk -- is Dana Bauer here? (!) The fact that 
+we work within the user group means that volunteers show up at project nights 
+to mentor beginners, answer their questions, and it gives newcomers a space to 
+grow into.
 
-Finally, here at PyCon -- I want to thank the conference for donating two
-registrations to attendees of these workshops -- both in Boston and in Philly.
-Beyond that, attendees and staff from these workshops have made a big dent in
-the gender diversity of the presentations. Of the posters that just finished up
-earlier today, seven of the women presenters are here because of this effort.
+PSF Grant supported PyStar Philly
+
+(FIXME: I think PyMNtos + PyStar Minneapolis is the same. I should give Gregg a 
+call.)
+
+Finally, here at PyCon -- I want to thank Jesse Noller for donating four 
+registrations to attendees of these workshops -- two for Boston and two for 
+Philly. Beyond that, attendees and staff from these workshops have made a big 
+dent in the gender diversity of the presentations. Of the posters that just 
+finished up earlier today, seven of the women presenters are here because of 
+this effort. (FIXME: Look into facts for specifics; 7 of 9 posters, etc.)
 
 (Jessica steps in and says what's next)
 
-So for you, what's your next step? We want you to run outreach workshops in your
-city. Get in touch with us, by email, or just find us during the sprints.
-The simplest thing you can do, and one of the best, is to run an open project night.
+FIXME: PSF grant
 
-This is a hack night by another name -- they're easy to organize. They're
-almost structureless; people will bring their own projects to work on. The bits
-of structure you have to add are making sure there's a beginner's corner,
-and making sure you say so in the advertisements for the event. If things go well,
-you'll find that regulars of your python user group like the idea of teaching
-others. You have to set the tone at the start of the hack night, too, to make sure
-it's truly a welcoming place. Get those going periodically, just like regular
-lecture nights that most python user groups have.
+So for you, what's your next step? We want you to run outreach workshops in 
+your city. Get in touch with us, by email, or just find us during the sprints. 
+The simplest thing you can do, and one of the best, is to run an open project 
+night.
 
-And then, if you like, organize an event especially for newcomers. You can
-make it about gender diversity if you want, or not -- what's important is that
-you pick some goal and stick to it. If you want to bring more scientists into
-your Python user group, great -- do it. Once you know what you want, and you
-declare you're going to get it, you'll find support from the other attendees.
-Get a good introductory event going, and you'll have a pipeline that brings
-newcomers in and sustains their interest.
+This is a hack night by another name -- they're easy to organize. They're 
+almost structureless; people will bring their own projects to work on. The bits 
+of structure you have to add are making sure there's a beginner's corner, and 
+making sure you say so in the advertisements for the event. If things go well, 
+you'll find that regulars of your python user group like the idea of teaching 
+others. You have to set the tone at the start of the hack night, too, to make 
+sure it's truly a welcoming place. Get those going periodically, just like 
+regular lecture nights that most python user groups have.
+
+And then, if you like, organize an event especially for newcomers. You can make 
+it about gender diversity if you want, or not -- what's important is that you 
+pick some goal and stick to it. If you want to bring more scientists into your 
+Python user group, great -- do it. Once you know what you want, and you declare 
+you're going to get it, you'll find support from the other attendees. Get a 
+good introductory event going, and you'll have a pipeline that brings newcomers 
+in and sustains their interest.
 
 (jessica takes over and finishes up)
 
